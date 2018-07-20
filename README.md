@@ -5,7 +5,7 @@ Yvonne Ouma
 My portfolio is the name of my project.This project is mainly meant to talk about all the projects the i will be making. Apart from projects it will also entail more information about me, that is, my education, and reasons as to why i joined this program.
 ## Specifications
 * This game works when to two user input their name as players.
-* This dice is from number 1 to 6.
+* This dice is labeled from number 1 to 6.
 * Then the first player rolls the dice.Scores are captured.
 * The second player also rolls the dice and the scores are captured.
 * The first player to reach 50point is the winner.
