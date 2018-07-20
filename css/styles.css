@@ -1,0 +1,28 @@
+body{
+  font-family: 'Merienda', cursive;
+  font-size: 30px;
+  color: white;
+}
+.container-fluid{
+  background-image: url("../images/agy.jpg");
+  padding: 180px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ply1{
+  border:2px solid orange;
+  width: 50%;
+  text-align: center;
+}
+#ply2{
+  border:2px solid orange;
+  width: 50%;
+  text-align: center;
+}
+h2{
+  text-align:center;
+}
+.form-group{
+  text-align:center;
+}
