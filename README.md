@@ -20,6 +20,6 @@ This application does not work in Internet explorer.
 * HTML
 * CSS
 * JavaScript
-* Bootstrap classes
+* Bootstrap classes and jQuery
 ## Support and contact details
 If any complication comes up when running this application please contact me on my gmail account yvonneouma98@gmail.com or 0706244461.
