@@ -2,5 +2,10 @@
   background-image: url("../images/Games Images.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 180px;
+  padding: 90px;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+.row{
+  background-color: #E0E0E0;
 }
