@@ -8,7 +8,7 @@ My portfolio is the name of my project.This project is mainly meant to talk abou
 * This dice is labeled from number 1 to 6.
 * Then the first player rolls the dice.Scores are captured.
 * The second player also rolls the dice and the scores are captured.
-* The first player to reach 50point is the winner.
+
 ## Prerequisites
 * web browser
 * git
