@@ -1,25 +1,32 @@
-// BUSINESS LOGIC
-var rolldice = function() {
-  return Math.floor(6 * Math.random()) +1;
-}
-function Player(roll, temporaryScore, totalScore, playerName) {
-  this.roll = 0;
-  this.temporaryScore = 0;
-  this.totalScore = 0;
-  this.playerName = playerName;
-}
-var Player = new player1();
-var player = new player2();
 
-alert(player.rolldice());
-alert()
+function rollDice() {
+  var die1 = document.getElementById("die1");
+  var status = document.getElementById("status");
+  var d1 = Math.floor(Math.random() * 6) + 1;
+  var diceTotal = d1 ;
+  die1.innerHTML = d1;
+  status.innerHTML ="You rolled "+ d1 +".";
+  if(d1 == 6) {
+    status.innerHTML += " DOUBLES! You get free turn! !";
+  }
+}
 
-USER LOGIC
-$(document).ready(function(event){
+
+function throwDice() {
+  var play2 = document.getElementById("play2");
+  var state = document.getElementById("state");
+  var p2 =Math.floor(Math.random() * 6) + 1;
+  var diceTotal = p2;
+  play2.innerHTML = p2;
+  state.innerHTML ="You rolled "+ diceTotal +".";
+  if(p1 == 3) {
+    state.innerHTML += " You got it";
+  }
+}
+
+$(document).ready(function(){
   $("button#start").click(function(event){
-    player1 = new Player(true);
-    player2 = new Player(false);
-  });
-
-  $("button")
-});
+   die1 = new d1;
+   play2 = new p2;
+  })
+})

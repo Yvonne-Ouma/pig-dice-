@@ -18,15 +18,10 @@
             <div class="card-body">
               <h4 class="card-title">Player 1</h4>
               <h4 class="card-text">Have fun in the game</h4>
-              <button type="button" id="roll-button1"><a href="" class="btn btn-success">Roll dice</button></a>
-              <br>
-              <button type="button" id="hold-button1"><a href="" class="btn btn-warning">Hold</button></a>
 
-              </br>
-              <h2>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></h2>
-              <p><span id="rol-temp1"></span>Temporary Score:</p>
-              <p><span id="rol-final1"></span>Final score:</p>
-
+              <div id= "die1" class="dice"><p><span id="rol-temp1"></span>Temporary Score: 0</p></div>
+              <button type="button" onclick="rollDice()">Roll the dice</button>
+              <h2 id="status"></h2>
             </div>
           </div>
         </div>
@@ -36,13 +31,9 @@
             <div class="card-body">
               <h4 class="card-title">Player 2</h4>
               <h4 class="card-text">Have fun in the game</h4>
-                <button type="button" id="roll-button2"><a href="" class="btn btn-success">Roll dice</button></a>
-              <br>
-                <button type="button" id="hold-button2"><a href="" class="btn btn-warning">Hold</button></a>
-            </br>
-            <h2>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></h2>
-              <p><span id="rol-temp2"></span>Temporary Score:</p>
-              <p><span id="rol-final2"></span>Final score:</p>
+              <div id= "play2" class="dice">  <p><span id="rol-final1"></span>Final score: 0</p></div>
+              <button type="button" onclick="throwDice()">Roll the dice</button>
+              <h2 id="state"></h2>
             </div>
           </div>
         </div>
