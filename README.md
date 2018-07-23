@@ -8,6 +8,8 @@ My portfolio is the name of my project.This project is mainly meant to talk abou
 * This dice is labeled from number 1 to 6.
 * Then the first player rolls the dice.Scores are captured.
 * The second player also rolls the dice and the scores are captured.
+* When the first player rolls the dice and gets a 6 then he/she gets a bonus, to play again.
+* On the other hand when the second player rolls the dice and gets a 3 then he/she gets a congratulation that states "Wow! You got it! !"
 
 ## Prerequisites
 * web browser
